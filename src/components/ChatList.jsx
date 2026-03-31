@@ -17,14 +17,16 @@ import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 // Sample messages — in a real app these come from an API/WebSocket
 const INITIAL_MESSAGES = {
-  4: [ // Morgan
-    { id: 1, text: "Hey! How's your day going?", sender: 'them', time: '2:30 PM' },
+  4: [ // Olivia
+    { id: 1, text: "Hey! How's your day going? 😊", sender: 'them', time: '2:30 PM' },
     { id: 2, text: "Pretty good! Just got back from a design workshop. You?", sender: 'me', time: '2:32 PM' },
-    { id: 3, text: "Nice! I've been working on a new series of illustrations 🎨", sender: 'them', time: '2:35 PM' },
+    { id: 3, text: "Omg same energy! I was at a gallery opening all afternoon 🎨", sender: 'them', time: '2:35 PM' },
+    { id: 4, text: "We should check out the new SFMOMA exhibit sometime", sender: 'them', time: '2:36 PM' },
   ],
-  8: [ // Drew
+  8: [ // Zoe
     { id: 1, text: "That hike sounds amazing!", sender: 'them', time: '1:00 PM' },
     { id: 2, text: "It was! Mt. Tam at sunrise is incredible 🌅", sender: 'me', time: '1:05 PM' },
+    { id: 3, text: "I'll bring homemade croissants next time 🥐", sender: 'them', time: '1:08 PM' },
   ],
 };
 
